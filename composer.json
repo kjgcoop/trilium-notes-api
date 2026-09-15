@@ -1,11 +1,11 @@
 {
   "name": "kjgcoop/trilium-notes-api",
-  "description": "A package to make changes to a Trilium Next instance",
+  "description": "A package to make changes to a Trilium Notes instance",
   "type": "library",
   "license": "GPL-3.0-or-later",
   "autoload": {
     "psr-4": {
-      "Kjgcoop\\TriliumNextApi\\": "src/"
+      "Kjgcoop\\TriliumApi\\": "src/"
     }
   },
   "authors": [
@@ -14,5 +14,10 @@
       "email": "git@kjcoop.com"
     }
   ],
-  "require": {}
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "michelf/php-markdown": "^2.0",
+    "psr/log": "^1.1 || ^2.0 || ^3.0"
+  }
 }
