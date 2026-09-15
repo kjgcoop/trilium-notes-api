@@ -1,5 +1,5 @@
 <?php
-namespace Kjgcoop\TriliumApi;
+namespace Kjgcoop\TriliumNotesApi;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -9,7 +9,7 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
-class TriliumApi
+class TriliumNotesApi
 {
     private ClientInterface $client;
     private LoggerInterface $logger;
